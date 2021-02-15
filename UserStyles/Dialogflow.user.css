@@ -5,8 +5,7 @@
 @preprocessor	default
 ==/UserStyle== */
 
-@-moz-document domain("dialogflow.cloud.google.com")
-{
+@-moz-document domain("dialogflow.cloud.google.com"){
 	.side-box, .right-panel .navbar-header, .side-form, .right-panel .navbar-header input, #inner-header, .paging-box, .list-group-item, .search-form .input-group, .form-control, .ng-pristine, .left-panel .navbar-header.navbar-header-white, #control-panel-, md-menu-content, #control-panel-menu, md-select-menu md-content, #agents-dropdown, .input-row-form .input-group, .content-table th, .rich_response__content md-card-header, .sti-multiple-input .prompt-cell.prompt-cell-first, .alert-general-, #ul-109, .alert-general-light, .b_card--transformable, .b_integration .b_integration_body, .form-control[disabled], md-dialog, training-conversations-item.active, .md-default-theme .md-datepicker-calendar, .md-datepicker-calendar, .md-calendar, .mat-select-panel, .b_agent-store-library-content, agent-store-library-v2 .b_public-agent-card, .ng-binding, .b_domains_training-category_head, .api-tools, .info-box > .head, .api-tools .param, .md-autocomplete-suggestions, .layout-, .CodeMirror-lines, .b-integration-popup md-dialog-actions, .top-panel .inner-header, .navbar-default {
 		background: #242526;
 	}

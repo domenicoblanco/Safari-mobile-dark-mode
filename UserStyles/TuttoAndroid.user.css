@@ -5,8 +5,7 @@
 @preprocessor	default
 ==/UserStyle== */
 
-@-moz-document domain("tuttoandroid.net")
-{
+@-moz-document domain("tuttoandroid.net"){
 	html, main,.tta-navbar, .socials, .tta-hotbar, div, .card-post.tuttotech .card-post-body {
 	    background: #333333!important;
 	}
