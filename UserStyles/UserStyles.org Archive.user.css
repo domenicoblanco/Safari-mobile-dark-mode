@@ -1,0 +1,59 @@
+/* ==UserStyle==
+@name			UserStyles.org Archive
+@author			Domenico Blanco
+@version		1.0.0
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document domain("33kk.github.io"){
+	body, .modal-content {
+	    background: #18191a;
+	    color: #94979b;
+	}
+	
+	.page-link {
+	    background: #242526;
+	    border-color: teal;
+	    color: teal;
+	}
+	
+	.page-item.active .page-link {
+	    background: teal;
+	    color: white;
+	    border-color: teal;
+	}
+	
+	.page-link:hover {
+	    background: teal;
+	    opacity: 0.9;
+	    border-color: teal;
+	    color: white;
+	}
+	
+	.card-body {
+		width: 98%;
+	    margin: -1px 2px 1.5px 2px;
+	    background: #242526;
+	}
+	
+	.card-img {
+		width: 98%;
+	    margin: 2px 2px 0px 2px;
+	}
+	
+	.card {
+		border-radius: 4px;
+		align-items: center;
+		background: linear-gradient(120deg, #0cbaba 0%, #380036 74%) no-repeat;
+	}
+	
+	input[type="search"], input[type="search"]:focus, .dropdown-menu, .dropdown-item:hover, .dropdown-item:focus {
+	    background: #495057;
+	    color: white;
+	    border-color: #34393e;
+	}
+	
+	.dropdown-item {
+		color: darkgray;
+	}
+}

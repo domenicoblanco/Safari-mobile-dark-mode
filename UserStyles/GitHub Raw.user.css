@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name			GitHub Raw
+@author			Domenico Blanco
+@version		1.0.0
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document domain("raw.githubusercontent.com"), domain("raw.github.com"){
+	html {
+		background: black;
+		color: teal;
+	}
+}

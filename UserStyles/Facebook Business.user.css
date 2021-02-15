@@ -1,0 +1,42 @@
+/* ==UserStyle==
+@name			Facebook Business
+@author			Domenico Blanco
+@version		1.0.0
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document domain("business.facebook.com"){
+	html, body {
+		background: #18191a;
+	}
+	
+	.rwb8dzxj, .mm98tyaj, ._6j1z, ._7w6q, ._2eqm, .sete2ngd, .r6d9dcr5, .if5qj5rh, .kll1wx78, .gxrezr7k, .mfclru0v {
+		background: #18191a;	
+	}
+	
+	._3qnf, #350084068994326_name, ._7fc2 {
+		background-color: #242526;
+		background: #242526;
+	}
+	
+	.l61y9joe, .img, span, div, .fbNubButton {
+		color: grey!important;
+	}
+	
+	._jak:hover, .g1fckbup:hover, .a53abz89:hover, div > canvas, ._5z7p, .fbNubButton, .fbNubButton:hover, .fbNubButton::before, .fbNubButton::after, .ar2v98a0 {
+		background-color: #242526;
+		background: #242526;
+	}
+	
+	._5z7r, ._66jc, .sodmb0zr, ._6g3g, ._2e42, ._3vo_ {
+		border-color: #242526!important;
+	}
+	
+	._7fc2, ._2gn0, ._8s_l > div, ._4ii7, ._ww-, ._2e42, .puibpoiz, ._6bqh, ._599r, button {
+		background-color: #242526!important;
+	}
+	
+	._6bqh {
+		border-color: grey;
+	}
+}
