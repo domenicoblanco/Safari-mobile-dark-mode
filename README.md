@@ -3,7 +3,7 @@
 A simple Siri Shortcut to inject custom CSS on iOS and iPadOS
 
 ## ⚙️ Installation
-- Open this page from your iDevice and open [this link]("https://www.icloud.com/shortcuts/a0ae3ffc7ed54c4087a7a5b734fd2f1d")
+- Open this page from your iDevice and open [this link](https://www.icloud.com/shortcuts/a0ae3ffc7ed54c4087a7a5b734fd2f1d)
 - Allow to install it from an untrusted source
 
 ## 📲 Usage
