@@ -1,0 +1,40 @@
+/* ==UserStyle==
+@name			TuttoAndroid
+@author			Domenico Blanco
+@version		1.0
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document domain("tuttoandroid.net")
+{
+	html, main,.tta-navbar, .socials, .tta-hotbar, div, .card-post.tuttotech .card-post-body {
+	    background: #333333!important;
+	}
+	
+	span, a, p, .card-post.tuttotech .card-post-body h3>a, .card-post.tuttotech .card-post-body .entry-meta a, .card-post.tuttotech span, .entry-title, em, li, .footer-text {
+	    color:white!important;
+	}
+	
+	.tta-logo{
+	    background: url("/wp-content/themes/ta2018/static/media/logo.380bf833.svg") no-repeat 50%!important;
+	}
+	
+	.tta-head{
+	    background: url(/wp-content/themes/ta2018/static/media/logo_head.5f8234ae.svg) no-repeat 50%!important;
+	}
+	
+	h2 {
+	    color: #8ac34b;
+	}
+	
+	.ripple--container {
+	    display: none;
+	}
+	
+	article {
+		z-index: 5;
+	}
+	
+	
+	
+}

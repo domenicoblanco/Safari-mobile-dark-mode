@@ -1,0 +1,82 @@
+/* ==UserStyle==
+@name			Dialogflow
+@author			Domenico Blanco
+@version		1.0.0
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document domain("dialogflow.cloud.google.com")
+{
+	.side-box, .right-panel .navbar-header, .side-form, .right-panel .navbar-header input, #inner-header, .paging-box, .list-group-item, .search-form .input-group, .form-control, .ng-pristine, .left-panel .navbar-header.navbar-header-white, #control-panel-, md-menu-content, #control-panel-menu, md-select-menu md-content, #agents-dropdown, .input-row-form .input-group, .content-table th, .rich_response__content md-card-header, .sti-multiple-input .prompt-cell.prompt-cell-first, .alert-general-, #ul-109, .alert-general-light, .b_card--transformable, .b_integration .b_integration_body, .form-control[disabled], md-dialog, training-conversations-item.active, .md-default-theme .md-datepicker-calendar, .md-datepicker-calendar, .md-calendar, .mat-select-panel, .b_agent-store-library-content, agent-store-library-v2 .b_public-agent-card, .ng-binding, .b_domains_training-category_head, .api-tools, .info-box > .head, .api-tools .param, .md-autocomplete-suggestions, .layout-, .CodeMirror-lines, .b-integration-popup md-dialog-actions, .top-panel .inner-header, .navbar-default {
+		background: #242526;
+	}
+	
+	html, head, body, .dashboard .content-box, .rich_response .rich_response__message .rich_response__add_content, .b-integration-popup .b-domain-popup-header, .md-button.md-raised, .error-container .error-header, .history-component .top-panel, .md-calendar-day-header, #agent-form .top-panel.agents-top-panel, .md-button.md-raised, .CodeMirror-gutters, h3[class].ng-binding, md-content[class].layout-padding, #dialogflow-app {
+		background: #18191a;
+	}
+	
+	md-divider, .nav .nav-divider {
+		background: #94979b;
+	}
+	
+	md-icon, .right-panel .navbar-header input::placeholder, .navbar-default .navbar-nav>li>a, md-menu-item>.md-button, .md-select-icon:after, .md-text, .dl, #link-create-agent-dropdown, #link-list-agents, #input-107::placeholder, #input-108::placeholder, #input-109::placeholder, #entity-name, md-input-container .md-input::placeholder, .ng-binding, textarea, .alert-general-light, .event-autocomplete, .b_integration .b_integration_body, .b-integration-popup .b-domain-popup-header, .form-control[disabled], .md-datepicker-input, .md-datepicker-calendar, .md-datepicker-input-mask, th, .md-calendar, .md-calendar-month-label md-icon, md-input-container .md-input, md-tabs .md-tab, .mat-form-field-appearance-outline .mat-form-field-outline-thick, .mat-select-value, .mat-select-arrow, .ng-star-inserted, .mat-option, dialogflow-app .gmat-caption, .b_agent-store-library-, .param > span, .title, br .ng-, md-select .md-select-value.md-select-placeholder, .api-box, .section-header, md-input-container:not(.md-input-invalid).md-input-has-value label, #input-67::placeholder, .md-autocomplete-suggestions-container .md-autocomplete-suggestion, md-input-container > label, .md-button.md-raised[disabled], .layout-padding, .md-dialog-title, .md-, #input-166::placeholder, .md-button, md-, .form-control, strong, div[class].ng-scope, button span:before {
+		color: #94979b;
+	}
+	
+	.right-panel .navbar-header, #inner-header, #test-console, .paging-box, .list-group-item, .search-form .input-group, .ng-pristine, .left-panel, .left-panel .navbar-header.navbar-header-white, md-chips-, .input-row-form .input-group, md-checkbox:not([disabled]).md-primary:not(.md-checked) .md-icon, .content-table, .content-table td, .input-row-form:first-of-type>.input-group, intent-contexts md-chips-wrap.md-chips, intent-events md-chips-wrap.md-chips, .rich_response md-card, hr, .cards .b_card, .b-domain-popup-header, .b-training-conversations-list-item.first, .b-training-conversations-list-item, .b-training-conversation-header, .error-container .error-header, .error-container .error-, .history-component .top-panel .top-panel-container .header, .conversations-component .conversation, .md-default-theme .md-datepicker-calendar-pane, .md-datepicker-calendar-pane, .md-virtual-repeat-offsetter, .mat-form-field-outline, .gmat-card, agent-store-library-v2 .b_public-agent-card, .ng-binding, .b_domains_training-category_head, .b_domains_training-, .tab-control, .api-tools > li, .api-tools .param, .info-box, .info-box > .head, md-chips-wrap.md-chips, .CodeMirror-gutters, .side-row, .error-container .error-body, .navbar-, .user-profile .tabs, md-checkbox:not(.md-checked) .md-icon {
+		border-color: #94979b;
+	}
+	
+	 .btn-icon:hover, .btn-icon:focus, .md-button.md-raised {
+		color: darkgray;
+	}
+	
+	md-switch[disabled] .md-bar {
+		background: rgba(148,151,155,0.12);
+	}
+	
+	.md-calendar-date-disabled {
+		color: rgba(148,151,155,0.52);
+	}
+	
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover {
+		background: #512DA8;
+	}
+	
+	.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover .ng-binding, .navbar-default .navbar-nav>li>a:focus > .ng-binding, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover {
+		background: #673AB7;
+	}
+	
+	.md-default-theme .md-datepicker-triangle-button .md-datepicker-expand-triangle, .md-datepicker-triangle-button .md-datepicker-expand-triangle {
+		border-top-color: #94979b;
+	}
+	
+	.history-component .top-panel .top-panel-container .filter-panel .dates-separator {
+		margin-left: 18px;
+	}
+	
+	rect {
+		fill: #242526;
+	}
+	
+	text {
+		fill: #94979b;
+	}
+	
+	button span, md-switch {
+		color: white!important;
+		background: none!important;
+	}
+	
+	.title > label, h3[class].ng-binding, #agents-dropdown-toggle > .dl {
+		background: none;
+	}
+	
+	.badge-pill, div[class].md-btn-login-text-wrapper {
+		color: white;
+	}
+	
+	.md-toolbar-tools {
+		background-color: #242526!important;
+	}
+}
