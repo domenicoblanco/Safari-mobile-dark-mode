@@ -5,6 +5,7 @@ A simple Siri Shortcut to inject custom CSS on iOS and iPadOS
 ## ⚙️ Installation
 - Open this page from your iDevice and open [this link](https://www.icloud.com/shortcuts/af5346b79c43446ca10cfa04e81a69c8)
 - Allow to install it from an untrusted source
+- Replace the javascript inside the shortcut with [this one](applet.js)
 
 ## 📲 Usage
 - Open Safari
