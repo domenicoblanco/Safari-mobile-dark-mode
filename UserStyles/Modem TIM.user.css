@@ -107,7 +107,7 @@
 		color: var(--text-opacity);
 	}
 	
-	.noUi-handle, #cancel-config, .btn-primary, .btn-table-new, .btn, .nav-list>li>a, .nav-list .nav-header, .btn:hover, .smallcard .header, .modal-footer, .custom-handler, .header, .modal-header, .copyright, .switcher::after, .smallcard .header .settings, .smallcard .header .settings:hover:hover, .smallcard .header .settings:hover:focus, .smallcard .header .settings:hover:active, .smallcard .header .settings:hover.active, .smallcard .header .settings:hover.disabled, .smallcard .header .settings:hover[disabled] {
+	.noUi-handle, #cancel-config, .btn-primary, .btn-table-new, .btn, .nav-list>li>a, .nav-list .nav-header, .btn:hover, .smallcard .header, .modal-footer, .custom-handler, .header, .modal-header, .copyright, .switcher::after, .smallcard .header .settings, .smallcard .header .settings:hover:hover, .smallcard .header .settings:hover:focus, .smallcard .header .settings:hover:active, .smallcard .header .settings:hover.active, .smallcard .header .settings:hover.disabled, .smallcard .header .settings:hover[disabled], .btn-group>.btn+.dropdown-toggle {
 		text-shadow: none;
 		-webkit-box-shadow: none;
 		-moz-box-shadow: none;
