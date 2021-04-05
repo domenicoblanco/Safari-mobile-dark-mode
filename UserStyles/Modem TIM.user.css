@@ -19,7 +19,6 @@
 	
 	body, #srp_username, #srp_password, .modal-body, .modal-action-advanced, .modal-action-refresh, .open-modal, .open-modal, .open-modal:active, .open-modal:focus, .open-modal:hover, .nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus, .btn-primary, #logged .btn, #webui_language, #cancel-config, #process, li>a.btn-table-new-list:hover, li>a.btn-table-new-list:focus, .btn.disabled, .android-ics.light .dw, #signout:hover, #changepass:hover {
 		background: var(--primary-color)!important;
-		/*background-color: var(--primary-color)!important;*/
 	}
 	
 	.logo-technicolor, .header, .modal-header, .modal, .modal-footer, input[type="text"], input[type="password"], .nav>li>a:focus, .nav>li>a:hover, .btn-table-new, .btn, #login, .smallcard .content, .noUi-base, .smallcard .header .settings, .smallcard .header .settings:hover:hover, .smallcard .header .settings:hover:focus, .smallcard .header .settings:hover:active, .smallcard .header .settings:hover.active, .smallcard .header .settings:hover.disabled, .smallcard .header .settings:hover[disabled], .smallcard .header .settings, .dropdown-menu, .custom-handler, .switchOn, .switch, .dropdown-menu::after, .btn:hover:hover, .btn:hover:focus, .btn:hover:active, .btn:hover.active, .btn:hover.disabled, .btn:hover[disabled], select.span3, td, .btn-mini, select.span2, .dropdown-toggle:focus, .btn-group.open .btn.dropdown-toggle {
@@ -30,7 +29,7 @@
 		background: var(--third-color);
 	}
 	
-	.switcher, .noUi-handle, .dropdown-menu .divider {
+	.switcher, .noUi-handle, .dropdown-menu .divider, .dropdown-toggle:hover {
 		background: teal;
 	}
 	
