@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@name			Modem TIM
+@name			Copy of Modem TIM
 @author			Domenico Blanco
 @version		1.0.0
 @namespace		https://github.com/domenicoblanco/Safari-mobile-dark-mode
@@ -17,7 +17,7 @@
 	
 	/* Background */
 	
-	body, #srp_username, #srp_password, .modal-body, .modal-action-advanced, .modal-action-refresh, .open-modal, .open-modal, .open-modal:active, .open-modal:focus, .open-modal:hover, .nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus, .btn-primary, #logged .btn, #webui_language, #cancel-config, #process, li>a.btn-table-new-list:hover, li>a.btn-table-new-list:focus, .btn.disabled, .android-ics.light .dw {
+	body, #srp_username, #srp_password, .modal-body, .modal-action-advanced, .modal-action-refresh, .open-modal, .open-modal, .open-modal:active, .open-modal:focus, .open-modal:hover, .nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus, .btn-primary, #logged .btn, #webui_language, #cancel-config, #process, li>a.btn-table-new-list:hover, li>a.btn-table-new-list:focus, .btn.disabled, .android-ics.light .dw, #signout:hover, #changepass:hover {
 		background: var(--primary-color)!important;
 		/*background-color: var(--primary-color)!important;*/
 	}
