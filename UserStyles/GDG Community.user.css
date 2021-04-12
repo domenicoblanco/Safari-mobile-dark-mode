@@ -1,0 +1,58 @@
+/* ==UserStyle==
+@name           GDG Community
+@namespace      github.com/domenicoblanco/Safari-mobile-dark-mode
+@version        1.0.0
+@description    A dark mode for Community.dev 
+@author         Domenico Blanco
+==/UserStyle== */
+
+@-moz-document domain("community.dev") {
+    #controls, .str-chat__virtual-list, .Dropdown-styles-toggle-3mPzo, ul, .emoji-mart-anchors, .emoji-mart, .str-chat__message-notification, .emoji-mart-category-label > span, .emoji-mart-emoji, .emoji-mart-skin-swatch, .PeopleList-styles-filter-bole-, .BOE-sidebar {
+        background: #242526!important;
+    }
+    
+    .Sidebar-styles-tabs-39QTq, #chat, .rta__textarea, .Chat-styles-emojiButton-2KyaF, #sendMessage, .Chat-styles-message-1Jp-S:hover, #emoji-mart-search-2, input[type="text"], .PeopleList-styles-defaultBar-D1ure:hover, .str-chat__input {
+        background-color: #3a3b3c!important;
+    }
+    
+    #sendMessage:disabled {
+        background-color: #3a3b3c!important;
+    }
+    
+    .Chat-styles-capitalize-1ByCk, button, .rta__textarea::placeholder {
+        color: teal!important;
+        font-style: bold;
+    }
+    
+    .rta__textarea, .Controls-styles-control--text-Qw3V_, .Chat-styles-message--timestamp-name-2GudS, .Chat-styles-message--timestamp-date-2hAb9, p, .emoji-mart-category-label > span, #emoji-mart-search-2::placeholder, .PeopleList-styles-name-2JvOl, .PeopleList-styles-role-3-skl, .PeopleList-styles-noAttendeesFound-2Y7DE, h2, .Chat-styles-dmListName-15Ec7, input[type="text"], input[type="text"]::placeholder {
+        color: teal!important;
+    }
+    
+    .BOE-sidebar, .str-chat__input, .Chat-styles-menuToggles-qxOFC {
+        border-color: #3a3b3c!important;
+    }
+    
+    .Controls-styles-control--icon-1Tv-9, .Dropdown-styles-dropdown-2d5h1, .emoji-mart, .emoji-mart-bar, .PeopleList-styles-filter-bole-, .Help-styles-helpSection-3w_k_ {
+        border-color: teal!important;
+    }
+    
+    .Dropdown-styles-dropdown-2d5h1::before, .Dropdown-styles-dropdown-2d5h1::after {
+        border-bottom: 9px solid teal!important;
+    }
+    
+    .Sidebar-styles-active-3TF16 {
+        background: #18191a!important;
+    }
+    
+    a[href] {
+        color: #2276e4;
+    }
+    
+    .MuiButton-label{
+        color: #3a3b3c;
+    }
+    
+    .MuiButtonBase-root {
+        background: teal;
+    }
+}
