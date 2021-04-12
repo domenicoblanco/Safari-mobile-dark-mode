@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           GDG Community
 @namespace      github.com/domenicoblanco/Safari-mobile-dark-mode
-@version        1.0.0
+@version        1.0.1
 @description    A dark mode for Community.dev 
 @author         Domenico Blanco
 ==/UserStyle== */
@@ -11,7 +11,7 @@
         background: #242526!important;
     }
     
-    .Sidebar-styles-tabs-39QTq, #chat, .rta__textarea, .Chat-styles-emojiButton-2KyaF, #sendMessage, .Chat-styles-message-1Jp-S:hover, #emoji-mart-search-2, input[type="text"], .PeopleList-styles-defaultBar-D1ure:hover, .str-chat__input {
+    .Sidebar-styles-tabs-39QTq, #chat, .rta__textarea, .Chat-styles-emojiButton-2KyaF, #sendMessage, .Chat-styles-message-1Jp-S:hover, #emoji-mart-search-2, input[type="text"], .PeopleList-styles-defaultBar-D1ure:hover, .str-chat__input, #emoji-mart-search-1 {
         background-color: #3a3b3c!important;
     }
     
@@ -24,7 +24,7 @@
         font-style: bold;
     }
     
-    .rta__textarea, .Controls-styles-control--text-Qw3V_, .Chat-styles-message--timestamp-name-2GudS, .Chat-styles-message--timestamp-date-2hAb9, p, .emoji-mart-category-label > span, #emoji-mart-search-2::placeholder, .PeopleList-styles-name-2JvOl, .PeopleList-styles-role-3-skl, .PeopleList-styles-noAttendeesFound-2Y7DE, h2, .Chat-styles-dmListName-15Ec7, input[type="text"], input[type="text"]::placeholder {
+    .rta__textarea, .Controls-styles-control--text-Qw3V_, .Chat-styles-message--timestamp-name-2GudS, .Chat-styles-message--timestamp-date-2hAb9, p, .emoji-mart-category-label > span, #emoji-mart-search-2::placeholder, .PeopleList-styles-name-2JvOl, .PeopleList-styles-role-3-skl, .PeopleList-styles-noAttendeesFound-2Y7DE, h2, .Chat-styles-dmListName-15Ec7, input[type="text"], input[type="text"]::placeholder, #emoji-mart-search-1::placeholder, #emoji-mart-search-1 {
         color: teal!important;
     }
     
@@ -54,5 +54,11 @@
     
     .MuiButtonBase-root {
         background: teal;
+    }
+    
+    .Chat-styles-emojiPicker-FntGJ {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        
     }
 }
