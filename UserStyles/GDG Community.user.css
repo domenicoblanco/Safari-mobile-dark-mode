@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           GDG Community
 @namespace      github.com/domenicoblanco/Safari-mobile-dark-mode
-@version        1.0.1
+@version        1.0.0
 @description    A dark mode for Community.dev 
 @author         Domenico Blanco
 ==/UserStyle== */
@@ -56,9 +56,8 @@
         background: teal;
     }
     
-    .Chat-styles-emojiPicker-FntGJ {
+    .Chat-styles-emojiPicker-FntGJ, .Chat-styles-emojiPicker-FntGJ .emoji-mart .emoji-mart-preview-skins .emoji-mart-skin-swatches {
         -webkit-box-shadow: none;
-        box-shadow: none;
-        
+        box-shadow: none;    
     }
 }
