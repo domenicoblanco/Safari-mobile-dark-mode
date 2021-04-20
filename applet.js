@@ -1,25 +1,38 @@
+const requestOptions = {
+	method: 'GET'
+};
+const domain = window.location.hostname;
+
 function applyStyle(css) {
-    var s = document.createElement('style');
-    s.appendChild(document.createTextNode(css));
-    document.head.appendChild(s);
-    completion();
+	var s = document.createElement('style');
+	s.appendChild(document.createTextNode(css));
+	document.head.appendChild(s);
 }
 
-function getData(url) {
-    fetch(url)
-    .then(response => response.text())
-    .then(function(res) {
-        applyStyle(res.replace(/^@-moz-document.*$/m, ''));
-    });
+function checkDomain(reg) {
+	if (reg.domains)
+		return (reg.domains.filter(dom => domain.includes(dom))).length;
+	return false;
 }
 
-var darkModes = Contents of URL // Replace this with the appropriate element
-var domain = window.location.hostname.replace("www.","");
-for(current in darkModes){
-    if(domain.includes(current) || domain == current){
-        getData(darkModes[current]);
-    }
+function checkRegExp(reg) {
+	if (reg.regexps)
+		return (reg.regexps.filter(el => RegExp(el).test(domain))).length;
+	return false;
 }
 
-// Call completion to finish
+function parseStyles(styles) {
+	styles.filter(val => val.sections)
+		.forEach(val =>
+			val.sections.filter(reg => checkDomain(reg) || checkRegExp(reg))
+			.filter(el => el)
+			.forEach(el => applyStyle(el.code))
+		);
+}
+
+fetch("URLs", requestOptions) // <- Eventually replace this with your URL!
+	.then(response => response.json())
+	.then(response => parseStyles(response))
+	.catch(error => console.log('error', error, error.line));
+
 completion();

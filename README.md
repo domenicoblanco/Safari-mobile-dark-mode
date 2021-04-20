@@ -3,7 +3,7 @@
 A simple Siri Shortcut to inject custom CSS on iOS and iPadOS
 
 ## ⚙️ Installation
-- Open this page from your iDevice and open [this link](https://www.icloud.com/shortcuts/af5346b79c43446ca10cfa04e81a69c8)
+- Open this page from your iDevice and open [this link](https://www.icloud.com/shortcuts/c8162bb6ec694d60a6e765d993198832)
 - Allow to install it from an untrusted source
 - Replace the javascript inside the shortcut with [this one](applet.js)
 
@@ -12,8 +12,5 @@ A simple Siri Shortcut to inject custom CSS on iOS and iPadOS
 - Share the page with `Dark Mode`
 - Enjoy
 
-## 💬 How can I contribute?
-Just edit the [config.json](config.json) adding the domain (without any www before or top-level domains after) and associate a valid CSS file
-
 ## ⚠️ This is not a tool to convert every page automatically!
-This shortcut gets the [config.json](config.json) from this repository and loads the userstyle associated!
+This shortcut gets a custom [stylus.json](stylus.json) (the default one is from this repository) and loads the userstyle associated!
