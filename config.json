@@ -10,5 +10,6 @@
     "raw.github": "https://raw.githubusercontent.com/domenicoblanco/Safari-mobile-dark-mode/master/UserStyles/GitHub Raw.user.css",
     "raw.githubusercontent": "https://raw.githubusercontent.com/domenicoblanco/Safari-mobile-dark-mode/master/UserStyles/GitHub Raw.user.css",
     "192.168.1.1": "https://raw.githubusercontent.com/domenicoblanco/Safari-mobile-dark-mode/master/UserStyles/Modem TIM.user.css",
-    "gdg.community.dev": "https://raw.githubusercontent.com/domenicoblanco/Safari-mobile-dark-mode/master/UserStyles/GDG Community.user.css"
+    "gdg.community": "https://raw.githubusercontent.com/domenicoblanco/Safari-mobile-dark-mode/master/UserStyles/GDG Community.user.css",
+    "http3check": "https://raw.githubusercontent.com/domenicoblanco/Safari-mobile-dark-mode/master/UserStyles/HTTP3 Check.user.css"
 }

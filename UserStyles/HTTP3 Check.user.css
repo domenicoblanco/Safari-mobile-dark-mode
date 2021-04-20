@@ -1,0 +1,53 @@
+/* ==UserStyle==
+@name			HTTP/3 Check
+@author			Domenico Blanco
+@version		1.0.0
+@namespace		github.com/domenicoblanco/Safari-mobile-dark-mode
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document domain("http3check.net")
+{
+	:root {
+		--primary-color: #18191a;
+		--secondary-color: #242526;
+		--third-color: #3a3b3c;
+		--text: teal;
+	}
+	
+	body {
+		background: var(--primary-color);
+	}
+	
+	.uk-box-shadow, .uk-card-default, .ls-main {
+		box-shadow: 0 5px 15px var(--secondary-color);
+	}
+	
+	.uk-box-shadow:hover, .ls-suggestion {
+		box-shadow: 0 5px 15px var(--third-color);
+	}
+	
+	.ls-suggestion:hover {
+		box-shadow: 0 5px 15px var(--text);
+	}
+	
+	.uk-card-default, .ls-footer, .uk-button-primary:focus, .uk-button-primary:hover, .uk-input:focus, .ls-pre, .uk-accordion-title:hover {
+		background: var(--secondary-color);
+	}
+	
+	.uk-alert-danger, .uk-button-primary, .uk-input {
+		background: var(--third-color);
+	}
+	
+	small, .uk-button-primary, .uk-button-primary:hover, .uk-button-primary:focus, .ls-footer p, .uk-text-primary,.uk-link, a, .uk-h4, h4 {
+		color: var(--text)!important;
+	}
+	
+	.uk-tab>.uk-active>a, pre, hr, .uk-divider-small::after, .uk-heading-line>::after, .uk-heading-line>::before {
+		border-color: var(--text);
+	}
+	
+	.uk-tab::before, .uk-accordion-title {
+		border-color: var(--third-color);
+	}
+}
