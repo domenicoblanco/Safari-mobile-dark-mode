@@ -17,7 +17,7 @@ function checkDomain(reg) {
 
 function checkRegExp(reg) {
 	if (reg.regexps)
-		return reg.regexps.filter(reg => RegExp(reg).test(domain)).length;
+		return reg.regexps.filter(reg => RegExp(reg).test(domain) || RegExp(reg).test("www."+domain)).length;
 	return false;
 }
 
