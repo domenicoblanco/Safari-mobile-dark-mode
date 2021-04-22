@@ -11,7 +11,7 @@ function applyStyle(css) {
 
 function checkDomain(reg) {
 	if (reg.domains)
-		return reg.domains.filter(reg => domain.includes(reg) || reg.includes("www."+domain)).length;
+		return reg.domains.filter(reg => domain.includes(reg)).length;
 	return false;
 }
 
