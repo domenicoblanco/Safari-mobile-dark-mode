@@ -1,7 +1,7 @@
 const requestOptions = {
 	method: 'GET'
 };
-const domain = window.location.hostname.replace("www.","");
+const domain = window.location.host.replace("www.","");
 
 function applyStyle(css) {
 	var s = document.createElement('style');
