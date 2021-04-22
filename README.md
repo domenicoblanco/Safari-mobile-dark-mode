@@ -13,4 +13,4 @@ A simple Siri Shortcut to inject custom CSS on iOS and iPadOS
 
 ## ⚠️ This is not a tool to convert every page automatically!
 This shortcut gets a custom [Stylus backup](stylus.json) and loads the userstyle associated!
-In order to use another backup, feel free to fork this repository and change the default backup URL in the [applet](applet.js) and change the script URL in the Shortcut
+In order to use another backup, feel free to fork this repository, change the default backup URL in the [applet](applet.js) and change the script URL in the Shortcut
