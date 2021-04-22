@@ -2,6 +2,7 @@ const requestOptions = {
 	method: 'GET'
 };
 const domain = window.location.host.replace("www.","");
+const origin = window.location.origin;
 
 function applyStyle(css) {
 	var s = document.createElement('style');
@@ -11,13 +12,13 @@ function applyStyle(css) {
 
 function checkDomain(reg) {
 	if (reg.domains)
-		return reg.domains.filter(reg => domain.includes(reg) || reg.includes("www."+domain)).length;
+		return reg.domains.filter(reg => domain.includes(reg) || reg.includes("www."+domain) || reg.includes(origin)).length;
 	return false;
 }
 
 function checkRegExp(reg) {
 	if (reg.regexps)
-		return reg.regexps.filter(reg => RegExp(reg).test(domain) || RegExp(reg).test("www."+domain)).length;
+		return reg.regexps.filter(reg => RegExp(reg).test(domain) || RegExp(reg).test("www."+domain) || RegExp(reg).test(origin)).length;
 	return false;
 }
 
