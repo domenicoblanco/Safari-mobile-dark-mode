@@ -25,7 +25,6 @@ function parseStyles(styles) {
 	styles.filter(val => val.sections)
 		.forEach(val =>
 			val.sections.filter(reg => checkDomain(reg) || checkRegExp(reg))
-			.filter(el => el)
 			.forEach(el => applyStyle(el.code))
 		);
 }
