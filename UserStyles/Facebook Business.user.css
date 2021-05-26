@@ -7,37 +7,73 @@
 ==/UserStyle== */
 
 @-moz-document domain("business.facebook.com"){
-	html, body {
-		background: #18191a;
+	:root {
+		--primary-color: #18191a;
+		--secondary-color: #242526;
+		--third-color: #0f1011;
+		--text: #929598;
+		--border-blue: #066CD2;
 	}
 	
-	.rwb8dzxj, .mm98tyaj, ._6j1z, ._7w6q, ._2eqm, .sete2ngd, .r6d9dcr5, .if5qj5rh, .kll1wx78, .gxrezr7k, .mfclru0v {
-		background: #18191a;	
+	/* Normal colors */
+	
+	.hmqwj350 {
+		background-color: var(--primary-color);
 	}
 	
-	._3qnf, #350084068994326_name, ._7fc2 {
-		background-color: #242526;
-		background: #242526;
+	.rvv2if8p, .mpql2fhx, .bfd0cbnx, .ne82rp9a, ._oxb._ox6, ._rce[aria-checked='true'], .jnfmswe8, ._5-97._5z7p {
+		background-color: var(--secondary-color);
 	}
+	
+	.qnhs3g5y, .r6d9dcr5, .m3jf0t4k, .mm98tyaj, button, ._1vj1, ._4iqg {
+		background-color: var(--third-color);
+	}
+	
+	.a53abz89, div[role="list"] > div {
+		background: none;
+	}
+	
+	/* Important colros */
+	
+	._ww-, .dy70pwuf.kzdo7wvt.h0zv973x.osvssn79 > div > div, .s7aci598.ju72f2dx.havmn4fh > div > div, .aeinzg81 > div > div {
+		background-color: var(--secondary-color)!important;
+	}
+	
+	.ReactVirtualized__Grid__innerScrollContainer {
+		background-color: var(--third-color)!important;
+	}
+	
+	._7bwf {
+		background-color: var(--text)!important;
+	}
+	
+	.ez8dtbzv.g4qalytl.dhod7fyx {
+		background: none!important;
+	}
+	
+	/* Borders */
+	
+	.ojz0a1ch, ._66jc, ._4-u2>._4-u3 {
+		border-color: var(--third-color);
+	}
+	
+	._2e42 {
+		background-color: var(--secondary-color)!important;
+		border-color: var(--text)!important;
+	}
+	
+	/* Text color */
 	
 	.l61y9joe, .img, span, div, .fbNubButton {
-		color: grey!important;
+		color: var(--text);
 	}
 	
-	._jak:hover, .g1fckbup:hover, .a53abz89:hover, div > canvas, ._5z7p, .fbNubButton, .fbNubButton:hover, .fbNubButton::before, .fbNubButton::after, .ar2v98a0 {
-		background-color: #242526;
-		background: #242526;
+	.jkcqx9mf span, .ellipsis, .lo9b52u4.k7otcuaj.hlx7f3sm.havmn4fh > span {
+		color: var(--text)!important;
 	}
 	
-	._5z7r, ._66jc, .sodmb0zr, ._6g3g, ._2e42, ._3vo_ {
-		border-color: #242526!important;
+	div[data-hover="tooltip"] {
+		color: white;
 	}
 	
-	._7fc2, ._2gn0, ._8s_l > div, ._4ii7, ._ww-, ._2e42, .puibpoiz, ._6bqh, ._599r, button {
-		background-color: #242526!important;
-	}
-	
-	._6bqh {
-		border-color: grey;
-	}
 }
