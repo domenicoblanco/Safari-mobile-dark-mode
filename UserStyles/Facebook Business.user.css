@@ -1,68 +1,79 @@
-:root {
-	--primary-color: #18191a;
-	--secondary-color: #242526;
-	--third-color: #0f1011;
-	--text: #929598;
-	--border-blue: #066CD2;
-}
+/* ==UserStyle==
+@name			Facebook Business
+@author			Domenico Blanco
+@namespace		GitHub
+@version		1.0.1
+@preprocessor	default
+==/UserStyle== */
 
-/* Normal colors */
-
-.hmqwj350, .dzz0lifr {
-	background-color: var(--primary-color);
-}
-
-.rvv2if8p, .mpql2fhx, .bfd0cbnx, .ne82rp9a, ._oxb._ox6, ._rce[aria-checked='true'], .jnfmswe8, ._5-97._5z7p {
-	background-color: var(--secondary-color);
-}
-
-.qnhs3g5y, .r6d9dcr5, .m3jf0t4k, .mm98tyaj, button, ._1vj1, ._4iqg {
-	background-color: var(--third-color);
-}
-
-.a53abz89, div[role="list"] > div {
-	background: none;
-}
-
-/* Important colros */
-
-._ww-, .dy70pwuf.kzdo7wvt.h0zv973x.osvssn79 > div > div, .s7aci598.ju72f2dx.havmn4fh > div > div, .aeinzg81 > div > div {
-	background-color: var(--secondary-color)!important;
-}
-
-.ReactVirtualized__Grid__innerScrollContainer {
-	background-color: var(--third-color)!important;
-}
-
-._7bwf {
-	background-color: var(--text)!important;
-}
-
-.ez8dtbzv.g4qalytl.dhod7fyx {
-	background: none!important;
-}
-
-/* Borders */
-
-.ojz0a1ch, ._66jc, ._4-u2>._4-u3 {
-	border-color: var(--third-color);
-}
-
-._2e42 {
-	background-color: var(--secondary-color)!important;
-	border-color: var(--text)!important;
-}
-
-/* Text color */
-
-.l61y9joe, .img, span, div, .fbNubButton {
-	color: var(--text);
-}
-
-.jkcqx9mf span, .ellipsis, .lo9b52u4.k7otcuaj.hlx7f3sm.havmn4fh > span {
-	color: var(--text)!important;
-}
-
-div[data-hover="tooltip"] {
-	color: white;
+@-moz-document domain("business.facebook.com"){
+	:root {
+		--primary-color: #18191a;
+		--secondary-color: #242526;
+		--third-color: #0f1011;
+		--text: #929598;
+		--border-blue: #066CD2;
+	}
+	
+	/* Normal colors */
+	
+	.hmqwj350, .dzz0lifr {
+		background-color: var(--primary-color);
+	}
+	
+	.rvv2if8p, .mpql2fhx, .bfd0cbnx, .ne82rp9a, ._oxb._ox6, ._rce[aria-checked='true'], .jnfmswe8, ._5-97._5z7p {
+		background-color: var(--secondary-color);
+	}
+	
+	.qnhs3g5y, .r6d9dcr5, .m3jf0t4k, .mm98tyaj, button, ._1vj1, ._4iqg {
+		background-color: var(--third-color);
+	}
+	
+	.a53abz89, div[role="list"] > div {
+		background: none;
+	}
+	
+	/* Important colros */
+	
+	._ww-, .dy70pwuf.kzdo7wvt.h0zv973x.osvssn79 > div > div, .s7aci598.ju72f2dx.havmn4fh > div > div, .aeinzg81 > div > div {
+		background-color: var(--secondary-color)!important;
+	}
+	
+	.ReactVirtualized__Grid__innerScrollContainer {
+		background-color: var(--third-color)!important;
+	}
+	
+	._7bwf {
+		background-color: var(--text)!important;
+	}
+	
+	.ez8dtbzv.g4qalytl.dhod7fyx {
+		background: none!important;
+	}
+	
+	/* Borders */
+	
+	.ojz0a1ch, ._66jc, ._4-u2>._4-u3 {
+		border-color: var(--third-color);
+	}
+	
+	._2e42 {
+		background-color: var(--secondary-color)!important;
+		border-color: var(--text)!important;
+	}
+	
+	/* Text color */
+	
+	.l61y9joe, .img, span, div, .fbNubButton {
+		color: var(--text);
+	}
+	
+	.jkcqx9mf span, .ellipsis, .lo9b52u4.k7otcuaj.hlx7f3sm.havmn4fh > span {
+		color: var(--text)!important;
+	}
+	
+	div[data-hover="tooltip"] {
+		color: white;
+	}
+	
 }
