@@ -6,7 +6,7 @@
 @preprocessor	default
 ==/UserStyle== */
 
-@-moz-document domain("raw.githubusercontent.com"), domain("raw.github.com"){
+@-moz-document domain("raw.githubusercontent.com"), domain("raw.github.com"), domain("cdn.jsdelivr.net") {
 	html {
 		background: black;
 		color: teal;
