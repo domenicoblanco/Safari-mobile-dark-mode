@@ -2,7 +2,7 @@
 @name			Facebook Business
 @author			Domenico Blanco
 @namespace		GitHub
-@version		1.0.1
+@version		1.0.2
 @preprocessor	default
 ==/UserStyle== */
 
@@ -21,11 +21,11 @@
 		background-color: var(--primary-color);
 	}
 	
-	.rvv2if8p, .mpql2fhx, .bfd0cbnx, .ne82rp9a, ._oxb._ox6, ._rce[aria-checked='true'], .jnfmswe8, ._5-97._5z7p, ._57d8, .fbNubFlyoutBody, ._599r, .jjseejtz, .tt3fu9o3 {
+	.rvv2if8p, .mpql2fhx, .bfd0cbnx, .ne82rp9a, ._oxb._ox6, ._rce[aria-checked='true'], .jnfmswe8, ._5-97._5z7p, ._57d8, .fbNubFlyoutBody, ._599r, .jjseejtz, .tt3fu9o3, ._jmh {
 		background-color: var(--secondary-color);
 	}
 	
-	.qnhs3g5y, .r6d9dcr5, .m3jf0t4k, .mm98tyaj, button, ._1vj1, ._4iqg, ._6bqh, .jjseejtz.lcfup58g.d2hqwtrz.qmqpeqxj.e7u6y3za.qwcclf47.nmlomj2f.c9g7wa9t.b3ilqy5t.up9symij.iv31pflw.tazx302l.kzp432ex.pcwd0zr3.ivwf2p9s, .bgad3pbb, .b4pxhmun, .hn33210v {
+	.qnhs3g5y, .r6d9dcr5, .m3jf0t4k, .mm98tyaj, button, ._1vj1, ._4iqg, ._6bqh, .jjseejtz.lcfup58g.d2hqwtrz.qmqpeqxj.e7u6y3za.qwcclf47.nmlomj2f.c9g7wa9t.b3ilqy5t.up9symij.iv31pflw.tazx302l.kzp432ex.pcwd0zr3.ivwf2p9s, .bgad3pbb, .b4pxhmun, .hn33210v, .ny4ihmnv, ._4iyh, input._58al {
 		background-color: var(--third-color);
 	}
 	
@@ -39,7 +39,7 @@
 		background-color: var(--secondary-color)!important;
 	}
 	
-	html, .ReactVirtualized__Grid__innerScrollContainer, ._3lxv,  div.aeinzg81.gj74ymbk._3qn7._61-0._2fyh._3qnf > div.mfclru0v, ._z4i, ._2kn8, ._2wpb._3v8w, ._4ii7._4vie {
+	html, .ReactVirtualized__Grid__innerScrollContainer, ._3lxv,  div.aeinzg81.gj74ymbk._3qn7._61-0._2fyh._3qnf > div.mfclru0v, ._z4i, ._2kn8, ._2wpb._3v8w, ._4ii7._4vie, label._58ak {
 		background-color: var(--third-color)!important;
 	}
 	
@@ -61,11 +61,11 @@
 	
 	/* Borders */
 	
-	.ojz0a1ch, ._66jc, ._4-u2>._4-u3, .k3atyh56, .rr6cmu50, ._6bqh {
+	.ojz0a1ch, ._66jc, ._4-u2>._4-u3, .k3atyh56, .rr6cmu50, ._6bqh, ul.nngj4jli {
 		border-color: var(--third-color);
 	}
 	
-	._z4i {
+	._z4i, .cxalocjs, label._58ak._3ct8 {
 		border-color: var(--third-color)!important;
 	}
 	
@@ -80,7 +80,7 @@
 		color: var(--text);
 	}
 	
-	.jkcqx9mf span, .ellipsis, .lo9b52u4.k7otcuaj.hlx7f3sm.havmn4fh > span, .a53abz89.rgsc13q7.rwb8dzxj.hv94jbsx > span, span[role="heading"], ._3-97 > span, ._2eqm._3qn7._61-0._2fyi._3qng > span, span._7fc8 > span > span, input._58al, div._3qn7._61-0._2fyi._3qng > span {
+	.jkcqx9mf span, .ellipsis, .lo9b52u4.k7otcuaj.hlx7f3sm.havmn4fh > span, .a53abz89.rgsc13q7.rwb8dzxj.hv94jbsx > span, span[role="heading"], ._3-97 > span, ._2eqm._3qn7._61-0._2fyi._3qng > span, span._7fc8 > span > span, input._58al, div._3qn7._61-0._2fyi._3qng > span, input._58al {
 		color: var(--text)!important;
 	}
 	
