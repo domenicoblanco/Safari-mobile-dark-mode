@@ -2,39 +2,43 @@
 @name			TuttoAndroid
 @author			Domenico Blanco
 @namespace		GitHub
-@version		1.0.1
+@version		1.0.2
 @preprocessor	default
 ==/UserStyle== */
 
 @-moz-document domain("tuttoandroid.net"){
-	html, main,.tta-navbar, .socials, .tta-hotbar, div, .card-post.tuttotech .card-post-body {
-	    background: #333333!important;
+	:root {
+		--primary-color: #18191a;
+		--secondary-color: #242526;
+		--third-color: #3a3b3c;
+		--text: rgb(139, 195, 74);;
 	}
 	
-	span, a, p, .card-post.tuttotech .card-post-body h3>a, .card-post.tuttotech .card-post-body .entry-meta a, .card-post.tuttotech span, .entry-title, em, li, .footer-text {
-	    color:white!important;
+	main, .tta-navbar, .socials, .tta-hotbar, .card-post.tuttotech .card-post-body, #tta-search, .footer-text {
+		background: var(--primary-color);
 	}
 	
-	.tta-logo{
-	    background: url("/wp-content/themes/ta2018/static/media/logo.380bf833.svg") no-repeat 50%!important;
+	.card-body, .card-post-body, .card-post.tuttotech .card-post-body, article, a.m-auto, .article-tags > a, #respond > button {
+		background: var(--secondary-color)!important;
 	}
 	
-	.tta-head{
-	    background: url(/wp-content/themes/ta2018/static/media/logo_head.5f8234ae.svg) no-repeat 50%!important;
-	}
-	
-	h2 {
-	    color: #8ac34b;
-	}
-	
-	.ripple--container {
-	    display: none;
-	}
-	
-	article {
+	section, .scrollbar-container .scrollbar {
+		background: var(--third-color);
+		border-radius: 10px;
+		padding-top: 10px;
+		padding-bottom: 10vh;
 		z-index: 5;
 	}
 	
+	span, a, p, a, span, em, li, h1, h2, h3, .footer-text, .card-post.tuttotech a, .card-post.tuttotech span, #respond > button {
+		color: var(--text)!important;
+	}
 	
+	.tta-logo {
+		background: url("/wp-content/themes/ta2018/static/media/logo.380bf833.svg") no-repeat 50%!important;
+	}
 	
+	.tta-head{
+		background: url(/wp-content/themes/ta2018/static/media/logo_head.5f8234ae.svg) no-repeat 50%!important;
+	}
 }
