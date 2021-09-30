@@ -14,7 +14,7 @@
 		--text: rgb(139, 195, 74);;
 	}
 	
-	main, .tta-navbar, .socials, .tta-hotbar, .card-post.tuttotech .card-post-body, #tta-search, .footer-text {
+	main, .tta-navbar, .socials, .tta-hotbar, .card-post.tuttotech .card-post-body, #tta-search, #adwallpaper, div.footer-bg, .footer-text {
 		background: var(--primary-color);
 	}
 	
