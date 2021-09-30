@@ -2,7 +2,7 @@
 @name			TuttoAndroid
 @author			Domenico Blanco
 @namespace		GitHub
-@version		1.0.2
+@version		1.0.3
 @preprocessor	default
 ==/UserStyle== */
 
@@ -18,7 +18,7 @@
 		background: var(--primary-color);
 	}
 	
-	.card-body, .card-post-body, .card-post.tuttotech .card-post-body, article, a.m-auto, .article-tags > a, #respond > button {
+	.card-body, .card-post-body, .card-post.tuttotech .card-post-body, article, a.m-auto, .article-tags > a, #respond > button, .ta-cc-modal, #ta-cc-modal-settings, #ta-cc-modal-accept {
 		background: var(--secondary-color)!important;
 	}
 	
@@ -30,8 +30,12 @@
 		z-index: 5;
 	}
 	
-	span, a, p, a, span, em, li, h1, h2, h3, .footer-text, .card-post.tuttotech a, .card-post.tuttotech span, #respond > button {
+	span, a, p, a, span, em, li, h1, h2, h3, .footer-text, .card-post.tuttotech a, .card-post.tuttotech span, #respond > button, div.ta-cc-modal-title, #ta-cc-modal-accept {
 		color: var(--text)!important;
+	}
+	
+	#ta-cc-modal-settings {
+		color: #fff;
 	}
 	
 	.tta-logo {
