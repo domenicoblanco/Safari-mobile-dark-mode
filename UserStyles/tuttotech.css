@@ -1,0 +1,32 @@
+/* ==UserStyle==
+@name			TuttoTech
+@author			Domenico Blanco
+@namespace		GitHub
+@version		1.0.0
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document domain("tuttotech.net"){
+    :root {
+        color-scheme: dark;
+        --primary-color: #222222;
+        --text: teal;
+        --border: #1084a7;
+    }
+    
+    .td-container {
+        background-color: var(--primary-color);
+    }
+    
+    div.td-post-author-name > a, p, h1, h2, .meta-info, .entry-crumbs, span > a, div.td-post-comments i, div.td-post-comments > a, div.td-post-next-prev-content > span, div.td-post-next-prev-content > a, .entry-title > a, div[data-reactroot] {
+        color: var(--text)!important;
+    }
+    
+    .td-pb-row [class*="td-pb-span"], .td-post-sharing-top, .td-post-sharing-bottom, .td-container, .td-pb-border-top, .td-post-content, .td-ss-main-, .td-block-row {
+        border-color: var(--border);
+    }
+    
+    .td-main-sidebar:before, .td-container-border:before, .td-main-content:before, .td-container-border:after, .td-next-prev-separator {
+        background: var(--border)!important;
+    }
+}

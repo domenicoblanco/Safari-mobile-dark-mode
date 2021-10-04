@@ -45,4 +45,8 @@
 	.tta-head{
 		background: url(/wp-content/themes/ta2018/static/media/logo_head.5f8234ae.svg) no-repeat 50%!important;
 	}
+
+	.scrollbar-container.horizontal .scrollbar {
+		display: none;
+	}
 }
