@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Modem TIM
 @author			Domenico Blanco
-@version		1.0.2
+@version		1.0.3
 @namespace		https://github.com/domenicoblanco/Safari-mobile-dark-mode
 @preprocessor	default
 ==/UserStyle== */
@@ -9,6 +9,7 @@
 @-moz-document domain("192.168.1.1")
 {
 	:root {
+		color-scheme: dark;
 		--primary-color: #18191a;
 		--secondary-color: #242526;
 		--third-color: #0f1011;
