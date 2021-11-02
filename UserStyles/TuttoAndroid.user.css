@@ -2,7 +2,7 @@
 @name			TuttoAndroid
 @author			Domenico Blanco
 @namespace		GitHub
-@version		1.0.3
+@version		1.0.4
 @preprocessor	default
 ==/UserStyle== */
 
@@ -18,7 +18,7 @@
 		background: var(--primary-color);
 	}
 	
-	.card-body, .card-post-body, .card-post.tuttotech .card-post-body, article, a.m-auto, .article-tags > a, #respond > button, .ta-cc-modal, #ta-cc-modal-settings, #ta-cc-modal-accept {
+	.card-body, .card-post-body, .card-post.tuttotech .card-post-body, article, a.m-auto, .article-tags > a, #respond > button, .ta-cc-modal, #ta-cc-modal-settings, #ta-cc-modal-accept, .card-grid.home, .card-post.tuttotech:before {
 		background: var(--secondary-color)!important;
 	}
 	
@@ -38,6 +38,10 @@
 		color: #fff;
 	}
 	
+	body .material-icon .color {
+		fill: #fff;
+	}
+	
 	.tta-logo {
 		background: url("/wp-content/themes/ta2018/static/media/logo.380bf833.svg") no-repeat 50%!important;
 	}
@@ -45,8 +49,18 @@
 	.tta-head{
 		background: url(/wp-content/themes/ta2018/static/media/logo_head.5f8234ae.svg) no-repeat 50%!important;
 	}
-
+	
 	.scrollbar-container.horizontal .scrollbar {
 		display: none;
+	}
+	
+	@media (max-width: 767px) {
+		.card-post {
+			border-radius: 5px;	
+		}
+		
+		.card-post > div.card-post-body {
+			margin: 3px 0px;
+		}
 	}
 }
