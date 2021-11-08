@@ -8,6 +8,7 @@
 
 @-moz-document domain("tuttoandroid.net"){
 	:root {
+		color-scheme: dark;
 		--primary-color: #18191a;
 		--secondary-color: #242526;
 		--third-color: #3a3b3c;
