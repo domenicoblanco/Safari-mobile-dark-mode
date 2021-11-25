@@ -26,7 +26,7 @@
 		background-color: var(--secondary-color)!important;
 	}
 	
-	.x-layout-split, .syno-pkglist-card:hover, .percentage-cmp-hbar-background, .usage-bar-bg {
+	.x-layout-split, .syno-pkglist-card:hover, .percentage-cmp-hbar-background, .usage-bar-bg, .syno-pkglist-list:hover {
 		background-color: var(--third-color)!important;
 		border-color: teal!important;
 	}
@@ -40,7 +40,7 @@
 		background-color: teal!important;
 	}
 	
-	.syno-pkglist-card {
+	.syno-pkglist-card, .syno-pkglist-list {
 		outline-color: teal;
 	}
 	
@@ -52,7 +52,7 @@
 		border-color: var(--text)!important;
 	}
 	
-	.syno-ux-button button:first-child, .add-image, .syno-ux-triggerfield:before, .syno-ux-textfield:before, table.schedule-table:before, .v-fieldset-title-wrapper:before, .fbar-wrapper, .v-tabs-nav-wrap, .v-tabs-nav-wrap > div:before, .v-select-wrapper, .v-select-dropdown-divider, .v-textfield-textarea, .custom-logo__preview-logo, .preview-image, .x-form-text {
+	.syno-ux-button button:first-child, .add-image, .syno-ux-triggerfield:before, .syno-ux-textfield:before, table.schedule-table:before, .v-fieldset-title-wrapper:before, .fbar-wrapper, .v-tabs-nav-wrap, .v-tabs-nav-wrap > div:before, .v-select-wrapper, .v-select-dropdown-divider, .v-textfield-textarea, .custom-logo__preview-logo, .preview-image, .x-form-text, .syno-pkglist-list {
 		border-color: teal!important;
 	}
 	
@@ -71,4 +71,8 @@
 	.x-form-field-wrap input::placeholder, .x-btn-text, .tab-panel-title {
 		color: teal!important;
 	}	
+
+	.syno-ux-button-blue .x-btn-text, .syno-ux-button-green .x-btn-text {
+		color: white!important;
+	}
 }
