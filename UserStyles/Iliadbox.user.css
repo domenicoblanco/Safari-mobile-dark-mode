@@ -1,0 +1,148 @@
+/* ==UserStyle==
+@name			Iliadbox
+@author			Domenico Blanco
+@version		1.0.0
+@namespace		https://github.com/domenicoblanco/Safari-mobile-dark-mode
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document domain("192.168.1.254"), domain("192.168.2.254"), domain("myiliadbox.iliad.it") {
+    :root {
+        color-scheme: dark;
+        --primary-color: #18191a;
+        --secondary-color: #242526;
+        --third-color: #0f1011;
+        --text: rgb(200, 200, 200);
+        --text-opacity: rgba(3, 169, 244, 0.7);
+    }
+    
+    /**
+     *
+     * Backgrounds
+     *
+     */
+     
+    #panel-1507-body, #form-1635-innerCt, .x-panel-body, .password, x-grid-header-ct .x-column-header, .x-container, .x-grid-group-hd  {
+        background: var(--third-color)!important;
+    }
+    
+    .desktop-icon {
+        background-color: lightgray;
+    }
+    
+    .lan-host .lan-host-off, .x-boundlist, #content, .login, body, .x-grid-row-summary .x-grid-cell, .x-grid-row-summary .x-grid-cell:hover, .freeboxos-southbar .x-box-inner, .freeboxos-southbar.x-toolbar, .x-form-text, .x-column-header {
+        background: var(--primary-color)!important;
+    }
+    
+    #formContent, .x-menu-item, .freeboxos-southbar .x-btn.fbx-taskbar.x-pressed, .x-menu-scroll-bottom, .x-window-header .x-window-header-body, .flot-dataInfo, .x-toolbar-footer .x-btn, .x-toolbar-footer .x-btn:hover, td.x-grid-cell, td.x-grid-cell:hover, .x-grid-row-selected .x-grid-cell, .x-grid-row-over .x-grid-cell, .x-grid-empty, .x-slider-thumb, .lan-host {
+        background: var(--secondary-color)!important;
+    }
+    
+    ul, .row-even, .freeboxos-southbar .btn-start .x-btn-button {
+        background-color: var(--secondary-color)!important;
+    }
+    
+    .x-boundlist .x-list-plain /*.x-boundlist-item*/.x-boundlist-selected, .x-mask {
+        background: rgba(0,0,0,.57);
+    }
+    
+    .x-form-cb-checked .x-form-radio {
+        background: var(--text-opacity);
+    }
+    
+    
+    /**
+     *
+     * Text
+     *
+     */
+     
+    .x-boundlist-item, .x-form-item-label, .x-panel-body-default, .password, h5, .submit-btn, a[href], .freeboxos-southbar .x-btn.fbx-taskbar.x-pressed .x-btn-wrap .x-btn-inner, .x-menu .x-menu-body .x-menu-item .x-menu-item-link .x-menu-item-text, .x-tab .x-tab-inner, .x-column-header-text, .x-toolbar-footer .x-btn .x-btn-inner-center, .x-form-text, #combobox-2319-labelEl, .x-grid-empty, .x-grid-group-title, .x-tree-node-text, p, li {
+        color: var(--text)!important;
+    }
+    
+    .setting-app-over {
+        color: white!important;
+    }
+    
+    .x-form-display-field, .flot-legend-label, .axisLabels {
+        color: gray;
+    }
+    
+    .conn-status .conn-status-up {
+        color: white!important;
+    } 
+    
+    /**
+     *
+     * Borders
+     *
+     */
+    
+    .x-fieldset, .setting-list-app h3, .x-column-header, .x-toolbar-docked-top .x-form-trigger-wrap, .x-boundlist, .x-grid-with-row-lines .x-grid-table, table.x-form-trigger-wrap, hr, td.x-grid-cell, .x-grid-row-selected .x-grid-cell, .x-grid-row-over .x-grid-cell, .x-grid-row-before-over .x-grid-td, .x-grid-group-hd, .x-grid-row-summary .x-grid-cell, .x-form-text, .x-form-cb {
+        border-color: var(--text-opacity);
+    }
+    
+    .x-fieldset {
+        border-color: var(--text-opacity)!important;
+    }
+    
+    .x-panel-header-default-top {
+        border-color: var(--text-opacity)!important;
+        box-shadow: var(--text-opacity) 0 1px 0 0 inset;
+    }
+    
+    .connection-status-up .x-grid-td, .connection-status-down .x-grid-td {
+        border-color: var(--secondary-color);
+    }
+    
+    .x-form-trigger-wrap .x-trigger-cell {
+        box-shadow: inset 1px 0 var(--text-opacity);
+    }
+    
+    .x-slider-thumb {
+        border-width: 2px!important;
+    }
+    
+    .x-form-radio, .x-form-cb-checked .x-form-radio {
+        box-shadow: none;
+    } 
+    
+    canvas {
+        outline: 1px var(--text-opacity) solid;
+    }
+    
+    /**
+     *
+     * Filters
+     *
+     */
+    
+    .desktop-icon, #button-1037-btnEl, .thumb, .flot-placeholder, .x-form-spinner-up, .x-form-spinner-down, img[src="resources/images/fbx/gw_back_v8_iliadboxos.png"], .app-icons-32-sprite, .profile-plus, .profile-thumb, .lan-host-img, pre, .setting-app-img, #button-1037-btnIconEl {
+        filter: invert();
+    }
+    
+    .x-trigger-index-0.x-form-trigger.x-form-arrow-trigger.x-form-trigger-first {
+        filter: invert()!important;
+    }
+    
+    .x-toolbar-default, .x-form-arrow-trigger, .x-toolbar-footer .x-btn .x-btn-icon-el, .legend > div, .x-column-header-trigger, .btn-disk, .x-action-col-icon.x-action-col-0.btn-edit, .x-action-col-icon.x-action-col-0.btn-delete, .x-tree-icon, .x-menu-item-icon, .btn-sprite, .contacts-anonymous, .contacts-anonymous-small {
+        filter: none!important;
+    }
+    
+    .btn-help {
+        filter: brightness(0.6);
+    }
+    
+    .profile-host-with-icon-checkbox {
+        filter: invert() brightness(5);
+    }
+    
+    .x-toolbar-footer .x-btn:hover, .x-grid-row-focused, .x-grid-row-over {
+        opacity: 0.7;
+    }
+    
+    .x-tree-icon {
+        opacity: none!important;
+    }
+}
