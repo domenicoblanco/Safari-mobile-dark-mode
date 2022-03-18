@@ -6,7 +6,7 @@
 @preprocessor	default
 ==/UserStyle== */
 
-@-moz-document domain("192.168.1.254"), domain("192.168.2.254"), domain("myiliadbox.iliad.it") {
+@-moz-document domain("192.168.*.254"), domain("myiliadbox.iliad.it") {
     :root {
         color-scheme: dark;
         --primary-color: #18191a;
