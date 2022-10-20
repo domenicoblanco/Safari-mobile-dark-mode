@@ -2,7 +2,7 @@
 @name			TuttoAndroid
 @author			Domenico Blanco
 @namespace		GitHub
-@version		1.0.4
+@version		1.0.5
 @preprocessor	default
 ==/UserStyle== */
 
@@ -18,12 +18,12 @@
 	main, .tta-navbar, .socials, .tta-hotbar, .card-post.tuttotech .card-post-body, #tta-search, #adwallpaper, .footer-text {
 		background: var(--primary-color);
 	}
-
-	div.footer-bg {
+	
+	body, div.footer-bg, .list-item.selectable {
 		background-color: var(--primary-color)!important;
 	}
 	
-	.card-body, .card-post-body, .card-post.tuttotech .card-post-body, article, a.m-auto, .article-tags > a, #respond > button, .ta-cc-modal, #ta-cc-modal-settings, #ta-cc-modal-accept, .card-grid.home, .card-post.tuttotech:before {
+	.card-body, .card-post-body, .card-post.tuttotech .card-post-body, a.m-auto, .article-tags > a, #respond > button, .ta-cc-modal, #ta-cc-modal-settings, #ta-cc-modal-accept, .card-grid.home, .card-post.tuttotech:before, .list-item.selectable:hover, .card-grid.home article, #tta-search-box {
 		background: var(--secondary-color)!important;
 	}
 	
@@ -35,7 +35,18 @@
 		z-index: 5;
 	}
 	
-	span, a, p, a, span, em, li, h1, h2, h3, .footer-text, .card-post.tuttotech a, .card-post.tuttotech span, #respond > button, div.ta-cc-modal-title, #ta-cc-modal-accept {
+	.list-item.selectable:hover.bordered.active, .list-item.selectable:active.bordered, .list-item.selectable.bordered, .list-item.selectable.bordered:hover {
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-radius: 5px;
+	}
+	
+	.card-body {
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+	
+	span, a, p, a, span, em, li, h1, h2, h3, .footer-text, .card-post.tuttotech a, .card-post.tuttotech span, #respond > button, div.ta-cc-modal-title, #ta-cc-modal-accept, .list-item.selectable div.card-title, #search-input {
 		color: var(--text)!important;
 	}
 	
