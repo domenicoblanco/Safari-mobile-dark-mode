@@ -1,0 +1,90 @@
+/* ==UserStyle==
+@name			Google PageSpeed Insights
+@author			Domenico Blanco
+@namespace		GitHub
+@version		1.0.0
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document domain("tuttoandroid.net"){
+    :root {
+        color-scheme: dark;
+    }
+    
+    .y4WSYd, .GX2tW, .LZbh2d, .lh-meta__items, .lh-button, .VfPkd-z59Tgd, .ziykHb.VfPpkd-suEOdc-OWXEXe-nzrxxc .VfPpkd-z59Tgd, .UWcfoe {
+        background-color: #18191a!important;
+    }
+    
+    html, body, .AXosle, .AcqYBc, .RtY7Qc, .Usd1Ac, article {
+        background-color: #242526!important;
+    }
+    
+    .c659ib:not(:disabled), .lh-audit__header:hover {
+        background-color: #3a3b3c;
+    }
+    
+    div, div.gSBk9c, h1, p, body, a, input, span, li, .lh-metricfilter__label, .UWcfoe {
+        color: teal!important;
+    }
+    
+    li::before {
+        filter: invert(1);
+    }
+    
+    header, .GX2tW, .UuJ0zd, .Usd1Ac, .lh-header-container .lh-scores-wrapper, .ifHdv, .lh-metric, img, .lh-button, .lh-audit, summary, th, table, .lh-category-wrapper, .VfPpkd-NSFCdd-Brv4Fb, .VfPpkd-NSFCdd-MpmGFe, .UWcfoe {
+        border-color: teal!important;
+    }
+    
+    .xNNpEc {
+        border-top-color: darkgray;
+    }
+    
+    .lh-category-headercol--separator, .WkGA5e {
+        background-color: teal!important;
+    }
+    
+    input::hover {
+        border-color: teal!important;
+        caret-color: teal!important;
+    }
+    
+    .jpGVBd:not(:disabled), .CsEsTe:not(:disabled), code {
+        color: #06f!important;
+    }
+    
+    .jpGVBd:not(:disabled):hover, .CsEsTe:not(:disabled):hover {
+        background-color: #242526!important;
+    }
+    
+    .kEKqec {
+        background-color: transparent!important;
+    }
+    
+    .xG0dZ > img, .lh-button::before {
+        filter: invert(1);
+    }
+    
+    .WbUJNb .VfPpkd-cfyjzb {
+        color: gray;
+    }
+    
+    .WbUJNb:hover .VfPpkd-cfyjzb {
+        color: darkgray;
+    }
+    
+    .lh-gauge__percentage, .c659ib:not(:disabled) > span, .lh-metricfilter__label--active {
+        color: lightgray!important;
+    }
+    
+    button > span, .lh-button, td a, td div, span > svg, td pre {
+        color: white!important;
+    }
+    
+    .VfPpkd-kBDsod > svg {
+        color: orange!important;
+    }
+    
+    .UWcfoe:disabled {
+        opacity: 0.5;
+    }
+}
